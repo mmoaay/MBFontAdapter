@@ -5,8 +5,8 @@
 
 tips：目前完美支持storyboard及xib。只需要将控件的Class选项设置为相应的类名即可。如：UILabel的Class设置为：MBLabelWithFontAdapter
 
-#define IPHONE6_INCREMENT 2
+\#define IPHONE6_INCREMENT 2
 这里设置iPhone6放大的字号数（现在是放大2号，也就是iPhone4s和iPhone5上字体为15时，iPhone6上字号为17）
 
-#define IPHONE6PLUS_INCREMENT 3
+\#define IPHONE6PLUS_INCREMENT 3
 这里设置iPhone6Plus放大的字号数（现在是放大3号，也就是iPhone4s和iPhone5上字体为15时，iPhone6上字号为18）
