@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-6H-vz5" customClass="MBButtonWithFontAdapter">
+                                <rect key="frame" x="207" y="132" width="186" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="MBButtonWithFontAdapter">
+                                    <color key="titleColor" red="1" green="0.41176470590000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MBLabelWithFontAdapter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlC-NF-8Gr" customClass="MBLabelWithFontAdapter">
+                                <rect key="frame" x="201" y="188" width="199" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MBTextFieldWithFontAdapter" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iHo-gT-FdE" customClass="MBTextFieldWithFontAdapter">
+                                <rect key="frame" x="196" y="242" width="210" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fPf-an-Djn" customClass="MBTextViewWithFontAdapter">
+                                <rect key="frame" x="150" y="306" width="300" height="160"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="4ng-bf-VGA"/>
+                                    <constraint firstAttribute="height" constant="160" id="y1f-tD-7yl"/>
+                                </constraints>
+                                <string key="text">MBTextViewWithFontAdapter
+MBTextViewWithFontAdapter
+MBTextViewWithFontAdapter
+MBTextViewWithFontAdapter
+MBTextViewWithFontAdapter
+MBTextViewWithFontAdapter
+MBTextViewWithFontAdapter</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TeU-6H-vz5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="6QZ-pX-58v"/>
+                            <constraint firstAttribute="centerX" secondItem="fPf-an-Djn" secondAttribute="centerX" id="8h4-7p-y8s"/>
+                            <constraint firstItem="iHo-gT-FdE" firstAttribute="top" secondItem="nlC-NF-8Gr" secondAttribute="bottom" constant="33" id="Y17-Su-m2H"/>
+                            <constraint firstItem="fPf-an-Djn" firstAttribute="top" secondItem="iHo-gT-FdE" secondAttribute="bottom" constant="34" id="jO7-kM-LyP"/>
+                            <constraint firstAttribute="centerX" secondItem="iHo-gT-FdE" secondAttribute="centerX" constant="-0.5" id="ktQ-SX-QYc"/>
+                            <constraint firstAttribute="centerX" secondItem="TeU-6H-vz5" secondAttribute="centerX" id="oQG-DC-TUF"/>
+                            <constraint firstItem="nlC-NF-8Gr" firstAttribute="top" secondItem="TeU-6H-vz5" secondAttribute="bottom" constant="26" id="yyu-Ne-65P"/>
+                            <constraint firstAttribute="centerX" secondItem="nlC-NF-8Gr" secondAttribute="centerX" id="zZJ-qm-9xr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

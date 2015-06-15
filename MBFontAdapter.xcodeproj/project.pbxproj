@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C262C2AD1B2E77A7005D4909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2AC1B2E77A7005D4909 /* main.m */; };
+		C262C2B01B2E77A7005D4909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2AF1B2E77A7005D4909 /* AppDelegate.m */; };
+		C262C2B31B2E77A7005D4909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2B21B2E77A7005D4909 /* ViewController.m */; };
+		C262C2B61B2E77A7005D4909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C262C2B41B2E77A7005D4909 /* Main.storyboard */; };
+		C262C2B81B2E77A7005D4909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C262C2B71B2E77A7005D4909 /* Images.xcassets */; };
+		C262C2BB1B2E77A7005D4909 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C262C2B91B2E77A7005D4909 /* LaunchScreen.xib */; };
+		C262C2C71B2E77A7005D4909 /* MBFontAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2C61B2E77A7005D4909 /* MBFontAdapterTests.m */; };
+		C262C2D81B2E78C9005D4909 /* MBFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2D71B2E78C9005D4909 /* MBFontAdapter.m */; };
+		C262C2E21B2E79A9005D4909 /* MBButtonWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2DD1B2E79A9005D4909 /* MBButtonWithFontAdapter.m */; };
+		C262C2E31B2E79A9005D4909 /* MBLabelWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2DF1B2E79A9005D4909 /* MBLabelWithFontAdapter.m */; };
+		C262C2E41B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2E11B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m */; };
+		C262C2E71B2E7B05005D4909 /* MBTextViewWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2E61B2E7B05005D4909 /* MBTextViewWithFontAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C262C2C11B2E77A7005D4909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C262C29F1B2E77A7005D4909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C262C2A61B2E77A7005D4909;
+			remoteInfo = MBFontAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C262C2A71B2E77A7005D4909 /* MBFontAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBFontAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C262C2AB1B2E77A7005D4909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C262C2AC1B2E77A7005D4909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C262C2AE1B2E77A7005D4909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C262C2AF1B2E77A7005D4909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C262C2B11B2E77A7005D4909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C262C2B21B2E77A7005D4909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C262C2B51B2E77A7005D4909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C262C2B71B2E77A7005D4909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C262C2BA1B2E77A7005D4909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C262C2C01B2E77A7005D4909 /* MBFontAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBFontAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C262C2C51B2E77A7005D4909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C262C2C61B2E77A7005D4909 /* MBFontAdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFontAdapterTests.m; sourceTree = "<group>"; };
+		C262C2D61B2E78C9005D4909 /* MBFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFontAdapter.h; sourceTree = "<group>"; };
+		C262C2D71B2E78C9005D4909 /* MBFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFontAdapter.m; sourceTree = "<group>"; };
+		C262C2DC1B2E79A9005D4909 /* MBButtonWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBButtonWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C2DD1B2E79A9005D4909 /* MBButtonWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBButtonWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C2DE1B2E79A9005D4909 /* MBLabelWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLabelWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C2DF1B2E79A9005D4909 /* MBLabelWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLabelWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C2E01B2E79A9005D4909 /* MBTextFieldWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextFieldWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C2E11B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextFieldWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C2E51B2E7B05005D4909 /* MBTextViewWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextViewWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C2E61B2E7B05005D4909 /* MBTextViewWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextViewWithFontAdapter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C262C2A41B2E77A7005D4909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C262C2BD1B2E77A7005D4909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C262C29E1B2E77A7005D4909 = {
+			isa = PBXGroup;
+			children = (
+				C262C2A91B2E77A7005D4909 /* MBFontAdapter */,
+				C262C2C31B2E77A7005D4909 /* MBFontAdapterTests */,
+				C262C2A81B2E77A7005D4909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C262C2A81B2E77A7005D4909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2A71B2E77A7005D4909 /* MBFontAdapter.app */,
+				C262C2C01B2E77A7005D4909 /* MBFontAdapterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C262C2A91B2E77A7005D4909 /* MBFontAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2D01B2E77C4005D4909 /* MBFontAdapter */,
+				C262C2AE1B2E77A7005D4909 /* AppDelegate.h */,
+				C262C2AF1B2E77A7005D4909 /* AppDelegate.m */,
+				C262C2B11B2E77A7005D4909 /* ViewController.h */,
+				C262C2B21B2E77A7005D4909 /* ViewController.m */,
+				C262C2B41B2E77A7005D4909 /* Main.storyboard */,
+				C262C2B71B2E77A7005D4909 /* Images.xcassets */,
+				C262C2B91B2E77A7005D4909 /* LaunchScreen.xib */,
+				C262C2AA1B2E77A7005D4909 /* Supporting Files */,
+			);
+			path = MBFontAdapter;
+			sourceTree = "<group>";
+		};
+		C262C2AA1B2E77A7005D4909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2AB1B2E77A7005D4909 /* Info.plist */,
+				C262C2AC1B2E77A7005D4909 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C262C2C31B2E77A7005D4909 /* MBFontAdapterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2C61B2E77A7005D4909 /* MBFontAdapterTests.m */,
+				C262C2C41B2E77A7005D4909 /* Supporting Files */,
+			);
+			path = MBFontAdapterTests;
+			sourceTree = "<group>";
+		};
+		C262C2C41B2E77A7005D4909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2C51B2E77A7005D4909 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C262C2D01B2E77C4005D4909 /* MBFontAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2DB1B2E7975005D4909 /* Control */,
+				C262C2DA1B2E7965005D4909 /* Util */,
+			);
+			name = MBFontAdapter;
+			sourceTree = "<group>";
+		};
+		C262C2DA1B2E7965005D4909 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2D61B2E78C9005D4909 /* MBFontAdapter.h */,
+				C262C2D71B2E78C9005D4909 /* MBFontAdapter.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C262C2DB1B2E7975005D4909 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				C262C2DC1B2E79A9005D4909 /* MBButtonWithFontAdapter.h */,
+				C262C2DD1B2E79A9005D4909 /* MBButtonWithFontAdapter.m */,
+				C262C2DE1B2E79A9005D4909 /* MBLabelWithFontAdapter.h */,
+				C262C2DF1B2E79A9005D4909 /* MBLabelWithFontAdapter.m */,
+				C262C2E01B2E79A9005D4909 /* MBTextFieldWithFontAdapter.h */,
+				C262C2E11B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m */,
+				C262C2E51B2E7B05005D4909 /* MBTextViewWithFontAdapter.h */,
+				C262C2E61B2E7B05005D4909 /* MBTextViewWithFontAdapter.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C262C2A61B2E77A7005D4909 /* MBFontAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C262C2CA1B2E77A7005D4909 /* Build configuration list for PBXNativeTarget "MBFontAdapter" */;
+			buildPhases = (
+				C262C2A31B2E77A7005D4909 /* Sources */,
+				C262C2A41B2E77A7005D4909 /* Frameworks */,
+				C262C2A51B2E77A7005D4909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBFontAdapter;
+			productName = MBFontAdapter;
+			productReference = C262C2A71B2E77A7005D4909 /* MBFontAdapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C262C2BF1B2E77A7005D4909 /* MBFontAdapterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C262C2CD1B2E77A7005D4909 /* Build configuration list for PBXNativeTarget "MBFontAdapterTests" */;
+			buildPhases = (
+				C262C2BC1B2E77A7005D4909 /* Sources */,
+				C262C2BD1B2E77A7005D4909 /* Frameworks */,
+				C262C2BE1B2E77A7005D4909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C262C2C21B2E77A7005D4909 /* PBXTargetDependency */,
+			);
+			name = MBFontAdapterTests;
+			productName = MBFontAdapterTests;
+			productReference = C262C2C01B2E77A7005D4909 /* MBFontAdapterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C262C29F1B2E77A7005D4909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MmoaaY;
+				TargetAttributes = {
+					C262C2A61B2E77A7005D4909 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C262C2BF1B2E77A7005D4909 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C262C2A61B2E77A7005D4909;
+					};
+				};
+			};
+			buildConfigurationList = C262C2A21B2E77A7005D4909 /* Build configuration list for PBXProject "MBFontAdapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C262C29E1B2E77A7005D4909;
+			productRefGroup = C262C2A81B2E77A7005D4909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C262C2A61B2E77A7005D4909 /* MBFontAdapter */,
+				C262C2BF1B2E77A7005D4909 /* MBFontAdapterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C262C2A51B2E77A7005D4909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C262C2B61B2E77A7005D4909 /* Main.storyboard in Resources */,
+				C262C2BB1B2E77A7005D4909 /* LaunchScreen.xib in Resources */,
+				C262C2B81B2E77A7005D4909 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C262C2BE1B2E77A7005D4909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C262C2A31B2E77A7005D4909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C262C2B31B2E77A7005D4909 /* ViewController.m in Sources */,
+				C262C2E71B2E7B05005D4909 /* MBTextViewWithFontAdapter.m in Sources */,
+				C262C2E31B2E79A9005D4909 /* MBLabelWithFontAdapter.m in Sources */,
+				C262C2E21B2E79A9005D4909 /* MBButtonWithFontAdapter.m in Sources */,
+				C262C2B01B2E77A7005D4909 /* AppDelegate.m in Sources */,
+				C262C2D81B2E78C9005D4909 /* MBFontAdapter.m in Sources */,
+				C262C2E41B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m in Sources */,
+				C262C2AD1B2E77A7005D4909 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C262C2BC1B2E77A7005D4909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C262C2C71B2E77A7005D4909 /* MBFontAdapterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C262C2C21B2E77A7005D4909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C262C2A61B2E77A7005D4909 /* MBFontAdapter */;
+			targetProxy = C262C2C11B2E77A7005D4909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C262C2B41B2E77A7005D4909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C262C2B51B2E77A7005D4909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C262C2B91B2E77A7005D4909 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C262C2BA1B2E77A7005D4909 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C262C2C81B2E77A7005D4909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C262C2C91B2E77A7005D4909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C262C2CB1B2E77A7005D4909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MBFontAdapter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C262C2CC1B2E77A7005D4909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MBFontAdapter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C262C2CE1B2E77A7005D4909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MBFontAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBFontAdapter.app/MBFontAdapter";
+			};
+			name = Debug;
+		};
+		C262C2CF1B2E77A7005D4909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MBFontAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBFontAdapter.app/MBFontAdapter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C262C2A21B2E77A7005D4909 /* Build configuration list for PBXProject "MBFontAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C262C2C81B2E77A7005D4909 /* Debug */,
+				C262C2C91B2E77A7005D4909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C262C2CA1B2E77A7005D4909 /* Build configuration list for PBXNativeTarget "MBFontAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C262C2CB1B2E77A7005D4909 /* Debug */,
+				C262C2CC1B2E77A7005D4909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C262C2CD1B2E77A7005D4909 /* Build configuration list for PBXNativeTarget "MBFontAdapterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C262C2CE1B2E77A7005D4909 /* Debug */,
+				C262C2CF1B2E77A7005D4909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C262C29F1B2E77A7005D4909 /* Project object */;
+}
