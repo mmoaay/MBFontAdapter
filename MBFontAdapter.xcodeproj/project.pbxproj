@@ -14,11 +14,11 @@
 		C262C2B81B2E77A7005D4909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C262C2B71B2E77A7005D4909 /* Images.xcassets */; };
 		C262C2BB1B2E77A7005D4909 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C262C2B91B2E77A7005D4909 /* LaunchScreen.xib */; };
 		C262C2C71B2E77A7005D4909 /* MBFontAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2C61B2E77A7005D4909 /* MBFontAdapterTests.m */; };
-		C262C2D81B2E78C9005D4909 /* MBFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2D71B2E78C9005D4909 /* MBFontAdapter.m */; };
-		C262C2E21B2E79A9005D4909 /* MBButtonWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2DD1B2E79A9005D4909 /* MBButtonWithFontAdapter.m */; };
-		C262C2E31B2E79A9005D4909 /* MBLabelWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2DF1B2E79A9005D4909 /* MBLabelWithFontAdapter.m */; };
-		C262C2E41B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2E11B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m */; };
-		C262C2E71B2E7B05005D4909 /* MBTextViewWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C2E61B2E7B05005D4909 /* MBTextViewWithFontAdapter.m */; };
+		C262C3611B341CBB005D4909 /* MBButtonWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C35A1B341CBB005D4909 /* MBButtonWithFontAdapter.m */; };
+		C262C3621B341CBB005D4909 /* MBLabelWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C35C1B341CBB005D4909 /* MBLabelWithFontAdapter.m */; };
+		C262C3631B341CBB005D4909 /* MBTextFieldWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C35E1B341CBB005D4909 /* MBTextFieldWithFontAdapter.m */; };
+		C262C3641B341CBB005D4909 /* MBTextViewWithFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C3601B341CBB005D4909 /* MBTextViewWithFontAdapter.m */; };
+		C262C3671B341CC5005D4909 /* MBFontAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C262C3661B341CC5005D4909 /* MBFontAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +45,16 @@
 		C262C2C01B2E77A7005D4909 /* MBFontAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBFontAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C262C2C51B2E77A7005D4909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C262C2C61B2E77A7005D4909 /* MBFontAdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFontAdapterTests.m; sourceTree = "<group>"; };
-		C262C2D61B2E78C9005D4909 /* MBFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFontAdapter.h; sourceTree = "<group>"; };
-		C262C2D71B2E78C9005D4909 /* MBFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFontAdapter.m; sourceTree = "<group>"; };
-		C262C2DC1B2E79A9005D4909 /* MBButtonWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBButtonWithFontAdapter.h; sourceTree = "<group>"; };
-		C262C2DD1B2E79A9005D4909 /* MBButtonWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBButtonWithFontAdapter.m; sourceTree = "<group>"; };
-		C262C2DE1B2E79A9005D4909 /* MBLabelWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLabelWithFontAdapter.h; sourceTree = "<group>"; };
-		C262C2DF1B2E79A9005D4909 /* MBLabelWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLabelWithFontAdapter.m; sourceTree = "<group>"; };
-		C262C2E01B2E79A9005D4909 /* MBTextFieldWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextFieldWithFontAdapter.h; sourceTree = "<group>"; };
-		C262C2E11B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextFieldWithFontAdapter.m; sourceTree = "<group>"; };
-		C262C2E51B2E7B05005D4909 /* MBTextViewWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextViewWithFontAdapter.h; sourceTree = "<group>"; };
-		C262C2E61B2E7B05005D4909 /* MBTextViewWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextViewWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C3591B341CBB005D4909 /* MBButtonWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBButtonWithFontAdapter.h; path = MBFontAdapter/control/MBButtonWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C35A1B341CBB005D4909 /* MBButtonWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBButtonWithFontAdapter.m; path = MBFontAdapter/control/MBButtonWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C35B1B341CBB005D4909 /* MBLabelWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBLabelWithFontAdapter.h; path = MBFontAdapter/control/MBLabelWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C35C1B341CBB005D4909 /* MBLabelWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBLabelWithFontAdapter.m; path = MBFontAdapter/control/MBLabelWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C35D1B341CBB005D4909 /* MBTextFieldWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBTextFieldWithFontAdapter.h; path = MBFontAdapter/control/MBTextFieldWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C35E1B341CBB005D4909 /* MBTextFieldWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBTextFieldWithFontAdapter.m; path = MBFontAdapter/control/MBTextFieldWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C35F1B341CBB005D4909 /* MBTextViewWithFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBTextViewWithFontAdapter.h; path = MBFontAdapter/control/MBTextViewWithFontAdapter.h; sourceTree = "<group>"; };
+		C262C3601B341CBB005D4909 /* MBTextViewWithFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBTextViewWithFontAdapter.m; path = MBFontAdapter/control/MBTextViewWithFontAdapter.m; sourceTree = "<group>"; };
+		C262C3651B341CC5005D4909 /* MBFontAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFontAdapter.h; path = MBFontAdapter/util/MBFontAdapter.h; sourceTree = "<group>"; };
+		C262C3661B341CC5005D4909 /* MBFontAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFontAdapter.m; path = MBFontAdapter/util/MBFontAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		C262C2DA1B2E7965005D4909 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				C262C2D61B2E78C9005D4909 /* MBFontAdapter.h */,
-				C262C2D71B2E78C9005D4909 /* MBFontAdapter.m */,
+				C262C3651B341CC5005D4909 /* MBFontAdapter.h */,
+				C262C3661B341CC5005D4909 /* MBFontAdapter.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -156,14 +156,14 @@
 		C262C2DB1B2E7975005D4909 /* Control */ = {
 			isa = PBXGroup;
 			children = (
-				C262C2DC1B2E79A9005D4909 /* MBButtonWithFontAdapter.h */,
-				C262C2DD1B2E79A9005D4909 /* MBButtonWithFontAdapter.m */,
-				C262C2DE1B2E79A9005D4909 /* MBLabelWithFontAdapter.h */,
-				C262C2DF1B2E79A9005D4909 /* MBLabelWithFontAdapter.m */,
-				C262C2E01B2E79A9005D4909 /* MBTextFieldWithFontAdapter.h */,
-				C262C2E11B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m */,
-				C262C2E51B2E7B05005D4909 /* MBTextViewWithFontAdapter.h */,
-				C262C2E61B2E7B05005D4909 /* MBTextViewWithFontAdapter.m */,
+				C262C3591B341CBB005D4909 /* MBButtonWithFontAdapter.h */,
+				C262C35A1B341CBB005D4909 /* MBButtonWithFontAdapter.m */,
+				C262C35B1B341CBB005D4909 /* MBLabelWithFontAdapter.h */,
+				C262C35C1B341CBB005D4909 /* MBLabelWithFontAdapter.m */,
+				C262C35D1B341CBB005D4909 /* MBTextFieldWithFontAdapter.h */,
+				C262C35E1B341CBB005D4909 /* MBTextFieldWithFontAdapter.m */,
+				C262C35F1B341CBB005D4909 /* MBTextViewWithFontAdapter.h */,
+				C262C3601B341CBB005D4909 /* MBTextViewWithFontAdapter.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -269,13 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C262C2B31B2E77A7005D4909 /* ViewController.m in Sources */,
-				C262C2E71B2E7B05005D4909 /* MBTextViewWithFontAdapter.m in Sources */,
-				C262C2E31B2E79A9005D4909 /* MBLabelWithFontAdapter.m in Sources */,
-				C262C2E21B2E79A9005D4909 /* MBButtonWithFontAdapter.m in Sources */,
+				C262C3671B341CC5005D4909 /* MBFontAdapter.m in Sources */,
 				C262C2B01B2E77A7005D4909 /* AppDelegate.m in Sources */,
-				C262C2D81B2E78C9005D4909 /* MBFontAdapter.m in Sources */,
-				C262C2E41B2E79A9005D4909 /* MBTextFieldWithFontAdapter.m in Sources */,
+				C262C3641B341CBB005D4909 /* MBTextViewWithFontAdapter.m in Sources */,
 				C262C2AD1B2E77A7005D4909 /* main.m in Sources */,
+				C262C3631B341CBB005D4909 /* MBTextFieldWithFontAdapter.m in Sources */,
+				C262C3611B341CBB005D4909 /* MBButtonWithFontAdapter.m in Sources */,
+				C262C3621B341CBB005D4909 /* MBLabelWithFontAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +472,7 @@
 				C262C2CC1B2E77A7005D4909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C262C2CD1B2E77A7005D4909 /* Build configuration list for PBXNativeTarget "MBFontAdapterTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +481,7 @@
 				C262C2CF1B2E77A7005D4909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
